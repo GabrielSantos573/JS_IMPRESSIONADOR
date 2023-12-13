@@ -14,3 +14,13 @@ console.log(inversoValor1);
 //false
 console.log(inversoValor2);
 //true
+
+console.log(10 === 10); //Com 3 === o js compara o tipo de dado (Comparação rigida)
+//true
+console.log(10 === '10');
+//false
+
+console.log(10 == 10); //Com 2 === o js não liga pro tipo de dado (Comparação fraca)
+//true
+console.log(10 == '10');
+//true
